@@ -11,11 +11,11 @@ canvas.config(bg = 'black')
 rootpath = "C:\\Users\dillo\Documents\GitHub\PythonMsuicPLayer\Msuic"
 pattern = "*.mp3"
 
-prev_img = tk.PhotoImage(file = "previous.png")
-next_img = tk.PhotoImage(file = "next.png")
-play_img = tk.PhotoImage(file = "play.png")
-stop_img = tk.PhotoImage(file = "stop.png")
-pause_img = tk.PhotoImage(file ="pause.png")
+prev_img = tk.PhotoImage(file = "previous_img.png")
+next_img = tk.PhotoImage(file = "next_img.png")
+play_img = tk.PhotoImage(file = "play_img.png")
+stop_img = tk.PhotoImage(file = "stop_img.png")
+pause_img = tk.PhotoImage(file = "pause_img.png")
 
 listBox = tk.Listbox(canvas, fg = "cyan", bg = "black", width = 100, font = ('poppins', 15) )
 listBox.pack(padx = 15, pady = 15 )
