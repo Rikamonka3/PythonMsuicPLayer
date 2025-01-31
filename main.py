@@ -8,7 +8,7 @@ canvas.title("Music Player")
 canvas.geometry("600x800")
 canvas.config(bg = 'black')
 
-rootpath = "C:\\Users\dillo\Documents\GitHub\PythonMsuicPLayer\Msuic"
+rootpath = "C:\\Users\LuunaK\Documents\GitHub\PythonMsuicPLayer\Msuic"
 pattern = "*.mp3"
 
 mixer.init()
